@@ -41,6 +41,12 @@ avrdude -C "<avrdude.conf>" -v -p m2560 -c wiring -P COM3 -b 115200 -D
 | `-D` | Ne pas effacer la flash avant écriture |
 | `-U flash:w:...:i` | Écriture du fichier Intel HEX |
 
+## Concept exploré / Explored concept
+
+![Tableau blanc — programmation Arduino à distance](media/concept-remote-programming.jpg)
+
+*Idée explorée en équipe : programmer l'Arduino à distance via un ESP32 (Bluetooth) et un CLI qui envoie le fichier compilé. Non implémentée dans cet outil, qui flashe en USB via `avrdude`.*
+
 ## Prérequis / Requirements
 
 - Windows avec **.NET Framework 4.7.2**.
