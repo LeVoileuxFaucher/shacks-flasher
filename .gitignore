@@ -1,0 +1,19 @@
+# Visual Studio / MSBuild
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Artefacts
+*.exe
+*.pdb
+*.dll
+*.cache
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
